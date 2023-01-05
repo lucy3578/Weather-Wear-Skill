@@ -1,0 +1,56 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "weather wear",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "CheckWeatherIntent",
+          "slots": [],
+          "samples": [
+            "what can i wear today",
+            "how do i get dressed for the weather",
+            "how much should i wear today",
+            "what is warm enough to wear today",
+            "what clothing is suitable for the weather today",
+            "what should i wear today",
+            "how do i dress for the weather today",
+            "how do i dress for the weather",
+            "what should i wear"
+          ]
+        },
+        {
+          "name": "InclementReminderIntent",
+          "slots": [],
+          "samples": [
+            "tell me safety precautions",
+            "what should i know before going out",
+            "What precautions should I take before going out",
+            "Safety reminders"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "5"
+}
